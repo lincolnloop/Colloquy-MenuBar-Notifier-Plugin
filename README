@@ -1,0 +1,20 @@
+h2. What?
+
+This is an unobtrusive notifier for Colloquy.
+
+!http://img.skitch.com/20100412-nmfurm5n3mwgpaif2nipim9k94.png!
+
+It puts an icon on your menubar that changes color when you have been mentioned or received a private message.
+
+h2. Why?
+
+Growl and/or the bouncing dock icon were too distracting for me.
+
+h2. How?
+
+To install:
+
+1. Install PyObjC: @sudo easy_install pyobjc@
+2. Install plugin: @mv MenuBar.py ~/Libarary/Application\ Support/Colloquy/PlugIns/@ 
+
+I know nothing about PyObjC. The code is mostly borrowed from the MenuBar Status plugin here: http://colloquy.info/extras/details.php?file=45
